@@ -1,4 +1,5 @@
-FROM busybox
+# jhou/hello-openshift
+FROM centos:7
 ADD bin/hello-openshift /hello-openshift
 ADD bin/hello /hello
 EXPOSE 8080 8888
